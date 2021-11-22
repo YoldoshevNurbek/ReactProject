@@ -1,0 +1,16 @@
+.shopCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.miniCard{
+    width: 1320px;
+    display: flex;
+}
+.container{
+    width: 1320px;
+    display: flex;
+
+}
