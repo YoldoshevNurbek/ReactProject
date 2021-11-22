@@ -1,0 +1,41 @@
+.section{
+    padding: 90px 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.asd .link:hover{
+    text-decoration: underline;
+}
+.asd .link{
+    display: inline-block;
+    text-decoration: none;
+    color: #355DFB;
+    padding: 15px 0;
+
+}
+.asd{
+    background: #fff;
+    color: #355DFB;
+    padding: 25px;
+}
+.title{
+    padding-top: 10px;
+}
+.section img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-top-right-radius: 0;
+    border-radius: 25% !important;
+}
+.text{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #355DFB;
+    padding-bottom: 80px;
+    letter-spacing: 1.5px;
+}

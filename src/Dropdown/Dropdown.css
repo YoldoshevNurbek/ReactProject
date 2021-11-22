@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.dropBig{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 35px 0;
+}
+.dropBig .drop{
+    width: 405px;
+    height: 322px;
+    background: #F0F4F8;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding:25px;
+    border-radius: 10px;
+}
+.dropBig .drop .DropTitle{
+    width: 256px;
+    height: 52px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 110%;
+    color: #000000;
+}
+.dropBig .drop .reply {
+    display: flex;
+    justify-content: space-between;
+}
+.dropBig .drop .reply .dropSpan{
+    width: 123px;
+    height: 19px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 110%;
+    color: #79A6C3;
+}
+.dropBig .drop .reply i{
+    width: 33px;
+    height: 33px;
+    color: #0000DE;
+    border: 1px solid #0000DE;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.dropBig .drop .nextImg{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+.dropBig .drop .nextImg .next{
+    width: 10px;
+    height: 20px;
+}
+.dropBig .drop .nextImg .nextLink{
+    width: 312px;
+    height: 41px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #0000DE;
+    padding-left: 10px;
+}

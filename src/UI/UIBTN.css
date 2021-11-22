@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn1{
+    width: 166px;
+    height: 48px;
+    background: #0000DE;
+    border-radius: 20px 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.bgBtn{
+    width: 166px;
+    height: 48px;
+    background: #fff;
+    border-radius: 20px 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    color: #000;
+    border: none;
+}

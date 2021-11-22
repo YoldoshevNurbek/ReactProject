@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.component{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    margin: auto;
+}
+.content{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContentImg .card-img{
+    width: 571px;
+    transform: skew(10deg, 10deg);
+    border-radius: 256px 0;
+}
+.ContentInfo {
+    width: 550px;
+    padding: 0 30px ;
+    text-align: center;
+}

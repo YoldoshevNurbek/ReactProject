@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.BuyContainer{
+    width: 1368px;
+    height: 354px;
+    background: #F0F4F8;
+    border-radius: 64px 6px;
+    margin-bottom: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.BuyContainer .BuyInfo .question{
+    width: 620px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 110%;
+    padding-bottom: 15px;
+}
+.BuyContainer .BuyInfo .question span{
+    color: #0000DE;
+}
+.BuyContainer .BuyInfo .answer{
+    width: 747px;
+    height: 22px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6E9BB8;
+    padding-bottom: 25px;
+}
+.BuyContainer .BuyInfo .button{
+    width: 356px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.BuyContainer .BuyInfo .button .chat{
+    width: 25px;
+}
+.BuyContainer .BuyImg .figure{
+    position: relative;
+    width: 433px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 140px 6px;
+}
+.BuyContainer .BuyImg .figure .images img{
+    position: absolute;
+    top: -36px;
+    left: 64px;
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.container{
+    width: 100%;
+}
+.component{
+    padding-top: 98px;
+}
+.componentCard{
+    position: relative;
+    width: 405px;
+    height: 500px;  
+    background: linear-gradient(180deg, rgba(84, 150, 216, 0) 0%, #F0F4F8 100%);
+    border-radius: 25px;
+}
+.cardtImg{
+    position: absolute;
+    left: 10%;
+    top: -10%;
+}
+.cardText{
+    position: relative;
+    padding: 0 30px;
+    top: 305px;
+}
+.card-span{
+    position: relative;
+    display: flex;
+    margin: auto    ;
+    justify-content: space-between;
+}
+.card-span span{
+    font-size: 25px;
+    color: #355DFB;
+}
+.card-text{
+width: 354px;
+height: 44px;
+padding: 0 0 85px;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+color: #6E9BB8;
+}
+.btns{
+    display: flex;
+}
+.btns .two{
+    background: white;
+    color: black;
+}
